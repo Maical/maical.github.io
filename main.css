@@ -1,39 +1,27 @@
 body 
 {
-	background-image: url("background.jpg");
+	background-image: url("background.jpg")  ;
+	transition: background .5s ease-out;
 }
 .container {
 	position: relative;
 	visibility: hidden;
-
-	/* margin: 10%;*/
-	width: 100%;
-      /*  top: 20%;
-      bottom: 20%;*/
-      height: 100%;
-      /*max-width: 1000px;*/
   }
-  .container > hr {
-  	margin: 900px 0;
 
-  }
 
   .jumbotron {
   	position: relative;
   	font-family: 'Montserrat', bold;
-
   	margin-top: 20%;
   	margin-bottom: 20%;
   	text-align: center;
-  	width: 100%;
-  	height: 100%;
   	color: white;
   	background-color: #1D1E1E;
 
 
   }
   .jumbotron h1 {
-  	font-size: 80px;
+  /*	font-size: 80px;*/
 
   	line-height: 1;
   }
