@@ -1,9 +1,11 @@
 body 
 {
-	background-image: url("background.jpg")  ;
+	
 	transition: background .5s ease-out;
+
 }
 .container {
+	background-image: url("background.jpg");
 	position: relative;
 	visibility: hidden;
   }
